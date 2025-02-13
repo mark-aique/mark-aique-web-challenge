@@ -14,7 +14,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className='flex justify-between h-[88] px-[12] items-center py-[26] overflow-y-scroll no-scrollbar'>
+        <div className='flex justify-between h-[88px] px-[12px] items-center py-[26px] overflow-y-scroll no-scrollbar'>
             <Image
                 src="/aique-icon.png"
                 alt="AIQUE Icon"
@@ -22,7 +22,7 @@ const Navbar = () => {
                 height={32}
                 priority
             />
-            <div className='flex gap-[12] pl-[53]' >
+            <div className='flex gap-[12px] pl-[53px]' >
                 <NavBarButton text='Home' selected={currentPath == '/'} onClick={() => navigateTo('/')} />
                 <NavBarButton text='About' selected={currentPath == '/about'} onClick={() => navigateTo('/about')} />
                 <NavBarButton text='Contacts' selected={currentPath == '/contacts'} onClick={() => navigateTo('/contacts')} />

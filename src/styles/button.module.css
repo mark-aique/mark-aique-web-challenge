@@ -1,5 +1,5 @@
 .defaultButton {
-    @apply px-[24] py-[8] h-[36] flex flex-col items-center justify-center border-[1px] border-solid;
+    @apply px-[24px] py-[8px] h-[36px] flex flex-col items-center justify-center border-[1px] border-solid;
 }
 
 .filledButton {

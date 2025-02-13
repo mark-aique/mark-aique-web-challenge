@@ -13,11 +13,11 @@ const locations = [{
 
 
 const ContactDetails = () => {
-    let locationComponents = []
+    const locationComponents = []
     for (let index = 0; index < locations.length; index++) {
         locationComponents.push(
-            <div className='flex gap-[12]' key={index}>
-                <div className="p-[12] h-[50] w-[50] bg-primary rounded-[8px]">
+            <div className='flex gap-[12px]' key={index}>
+                <div className="p-[12px] h-[50px] w-[50px] bg-primary rounded-[8px]">
                     <Image
                         src="/home-icon.png"
                         alt="Home icon"
@@ -29,7 +29,7 @@ const ContactDetails = () => {
                     <p className={typography.textSmall}
                         style={{
                             fontWeight: 700,
-                            fontSize: 14,
+                            fontSize: '14px',
                             textAlign: 'start'
                         }}>
                         {locations[index].name}
@@ -50,12 +50,12 @@ const ContactDetails = () => {
             Get In Touch With Us
         </p>
         <p className={typography.textSmall} style={{
-            fontSize: 16,
+            fontSize: '16px',
             textAlign: 'start',
         }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor
         </p>
-        <div className='gap-[10] flex flex-col mt-[12]'>
+        <div className='gap-[10px] flex flex-col mt-[12px]'>
             {locationComponents}
         </div>
     </div>;

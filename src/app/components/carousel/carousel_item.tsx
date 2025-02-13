@@ -7,7 +7,7 @@ export type CarouselItemParams = { imageUrl: string, alt: string, title: string,
 function CarouselItem({ imageUrl, alt, title, content }: CarouselItemParams) {
 
     return (
-        <div className="flex-col min-w-[370px] h-[513px] rounded-[8] shadow-[0px_1px_3px_0px_#A6AFC366] overflow-clip">
+        <div className="flex-col min-w-[370px] h-[513px] rounded-[8px] shadow-[0px_1px_3px_0px_#A6AFC366] overflow-clip">
             <Image
                 src={imageUrl}
                 alt={alt}

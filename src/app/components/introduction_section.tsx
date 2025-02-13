@@ -15,7 +15,7 @@ const IntroductionSection = () => {
             <p className={typography.display + ' mt-[12px]'}>
                 Build and Launch Reliable and Market-Ready Products
             </p>
-            <p className={typography.textSmall + ' px-[36] mt-[12] max-w-[1140]'}>
+            <p className={typography.textSmall + ' px-[36px] mt-[12px] max-w-[1140px]'}>
                 This 2025, Aique DANG aims to optimize internal structures and processes, ensuring enhanced reliability, integrity, and efficiency, ultimately driving increased profitability for its clients.
             </p>
             <button className={buttonStyles.filledButton + " min-h-[48px] mt-[12px]"}>
