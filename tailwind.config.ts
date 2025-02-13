@@ -12,7 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: "#2D68F8",
+        backgroundImage: {
+          'gradient-radial': 'radial-gradient(var(--gradient-color-stops))',
+        },
       },
+
     },
   },
   plugins: [],
