@@ -1,25 +1,23 @@
 .form {
-    @apply relative;
+  @apply relative;
 }
 
 .form::before {
-    @apply content-[""] absolute top-[-14px] right-[-44px] z-[-1] w-[176px] h-[176px] rounded-[110px] blur-[26px];
-    background: radial-gradient(50% 50% at 50% 50%, #2D68F8 0%, #E72DF8 100%);
+  @apply content-[""] absolute top-[-14px] right-[-44px] z-[-1] w-[176px] h-[176px] rounded-[110px] blur-[26px];
+  background: radial-gradient(50% 50% at 50% 50%, #2d68f8 0%, #e72df8 100%);
 }
-
 
 .form::after {
-    @apply content-[""] absolute bottom-[-92px] left-[-46px] z-[-1] w-[176px] h-[176px] rounded-[110px] blur-[26px];
-    background: radial-gradient(50% 50% at 50% 50%, #2D68F8 0%, #E72DF8 100%);
+  @apply content-[""] absolute bottom-[-92px] left-[-46px] z-[-1] w-[176px] h-[176px] rounded-[110px] blur-[26px];
+  background: radial-gradient(50% 50% at 50% 50%, #2d68f8 0%, #e72df8 100%);
 }
 
-
 .content {
-    @apply flex flex-col items-center
+  @apply flex flex-col items-center;
 }
 
 @media (max-width: 1480px) {
-    .content {
-        @apply block
-    }
+  .content {
+    @apply block;
+  }
 }

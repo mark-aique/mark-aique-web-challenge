@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import style from "@/styles/styles.module.css";
 import CarouselSlider from "./components/carousel/carousel_slider";
 import ContactUsSection from "./components/contacts/contact_us_section";

@@ -1,16 +1,15 @@
 .defaultButton {
-    @apply px-[24px] py-[8px] h-[36px] flex flex-col items-center justify-center border-[1px] border-solid;
+  @apply px-[24px] py-[8px] h-[36px] flex flex-col items-center justify-center border-[1px] border-solid;
 }
 
 .filledButton {
-    @apply defaultButton rounded-lg bg-primary text-white border-[#0000];
+  @apply defaultButton rounded-lg bg-primary text-white border-[#0000];
 }
 
-
 .outlinedButton {
-    @apply defaultButton rounded-[50px] bg-transparent text-black border-[1px] border-black;
+  @apply defaultButton rounded-[50px] bg-transparent text-black border-[1px] border-black;
 }
 
 .outlinedOnHoverButton {
-    @apply defaultButton rounded-lg bg-transparent hover:text-primary hover:border-primary border-[#0000];
+  @apply defaultButton rounded-lg bg-transparent hover:text-primary hover:border-primary border-[#0000];
 }
