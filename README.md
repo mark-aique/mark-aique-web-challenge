@@ -1,6 +1,6 @@
 ## Live Demo
 
-- [mark-aique-web-challenge ](https://mark-aique-web-challenge.vercel.app/)
+- [mark-aique-web-challenge ](https://aique.markcabalona.dev/)
 
 ---
 
