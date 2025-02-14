@@ -20,7 +20,7 @@ const ContactDetails = () => {
   for (let index = 0; index < locations.length; index++) {
     locationComponents.push(
       <div className="flex gap-[12px]" key={index}>
-        <div className="p-[12px] h-[50px] w-[50px] bg-primary rounded-[8px]">
+        <div className="p-[12px] h-[50px] w-[50px] bg-primary rounded-[8px] justify-center items-center flex">
           <Image
             src="/home-icon.png"
             alt="Home icon"
