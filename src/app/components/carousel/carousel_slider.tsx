@@ -42,8 +42,10 @@ const CarouselSlider = () => {
   }
 
   return (
-    <div className="flex flex-row gap-[12px] overflow-y-scroll no-scrollbar mt-[24px] mb-[48px]">
+    <div className="overflow-y-scroll no-scrollbar">
+        <div className="flex flex-row gap-[12px] mt-[24px] mb-[48px]">
       {children}
+    </div>
     </div>
   );
 };
